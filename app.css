@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400|Pacifico";
+
+
+body, input, select, textarea {
+		color: #26238B;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 500;
+		line-height: 1.65;
+	}
+
+table, th, td {
+	background-color: white;
+	padding: 10px;
+	width: 80%;
+}
+
+h1 {
+		color:#2E3036  ;
+		font-weight: 700;
+		font-size: 35pt;
+		font-family: "Montserrat", sans-serif;
+		line-height: 1.5;
+		text-align: center;
+	}
+
+	input[type="Poll Your Option"],
+	button,
+	.button {
+		background-color: #6E95F0;
+		border-radius: 4px;
+		border: 10;
+		color: #ffffff;
+		cursor: pointer;
+		display: inline-block;
+		font-family: "Montserrat", sans-serif;
+		line-height: 3.5em;
+		padding: 0 3.5em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	input[type="Poll Your Option"]:hover,
+	button:hover,
+	.button:hover {
+	background-color: #1C3571;
+	}
+
